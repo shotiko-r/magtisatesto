@@ -1,0 +1,238 @@
+* {
+    font-family:icomoon;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.logo {
+    
+    margin-left: 0.5%;
+    display: flex;
+    cursor: pointer;
+    width: 133px;
+    height: 40px;
+    padding: 20px
+}
+nav { 
+    margin: 0;
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    display: flex;
+      
+}
+ul li 
+{
+    list-style: none;
+}
+ul 
+{
+    margin-left: 165px;
+    margin-top: -60px;
+    display: flex;
+}
+li 
+{
+    color:#485f71;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 15px;
+    
+}
+li:hover 
+{
+    color:  red;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+
+form  
+{
+    position: relative;
+    top: -35px;
+    left: 1200px;
+    transform: translate(-50%,-50%);
+    transition: all 1s;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: 4px solid white;
+   }
+
+input 
+   {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;;
+    height: 42.5px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+.fa 
+{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color: #07051a;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
+}
+
+form:hover,
+form:valid 
+{
+    width: 200px;
+    cursor: pointer;
+}
+
+form:hover input,
+form:valid input 
+{
+    display: block;
+}
+
+form:hover .fa,
+form:valid .fa 
+{
+    background: #07051a;
+    color: white;
+}
+
+
+
+
+form:valid a {
+  display: block;
+}
+
+.user {
+    margin-left: 1250px;
+    margin-top: -120px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    display: flex;
+    
+    
+}
+/* amas classad header daarqvi  */
+.rectangle {  /* ჰეადერი მართკუთხედი */
+    margin-top: -60px;
+    width: 1366px;
+    height: 100px;
+    border: 1px solid black;
+    align-items: center;
+    
+}
+
+
+
+main {
+    width: 100%;
+    height: 300px;
+    
+    margin-top: 10px;
+}
+
+main .fortext-img{
+
+    width: 80%;
+    height: 300px;
+   
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+                        
+}
+
+main .fortext-img .for-text {
+
+    width: 500px;
+    height: 200px;
+    background-color: white;
+    margin-top: 180px;
+    color: #485f71;
+}
+
+.for-text p {
+    color: #485f71;
+    
+}
+.for-text p span{
+    color :red ;
+}
+
+main .fortext-img .for-img {
+
+    width: 300px;
+    height: 200px;
+    margin-top: 130px;
+    margin-right: 70px;
+}
+.clik {
+    margin-top: 50px;
+    width: 140px;
+    height: 35px;
+    color: red;
+    border-color: red;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+
+}
+.clik1 {
+    color: red;
+    width: 35px;
+    height: 35px;
+    border-color: red;
+    cursor: pointer;
+    font-size: 16px;
+}
+::selection {
+    background-color: rgba(243, 73, 21, 0.945);
+}
+.clik:hover {
+    background-color: red;
+    color: black
+}
+.clik1:hover {
+    background-color: red;
+    color: black;
+}
+.circle1 {
+    width: 20px;
+    height: 20px;
+    background-color: #cbd3d4;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: -400px;
+}
+.large-container {
+    width: 100%;
+    height: auto;
+   background-color: rgb(196, 214, 32);
+   margin-top: 270px;
+   color: black;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 20px;
+
+   
+}
+.for-text1 {
+
+}
+
